@@ -1,16 +1,41 @@
-# React + Vite
+# Preço Certo — Frontend (Web)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+**Preço Certo** é a interface web da aplicação desenvolvida para ajudar **microempreendedores** a entenderem, registrarem e controlarem **custos, despesas, vendas e lucro**, com foco em **precificação correta** e geração de **DRE (Demonstrativo de Resultado do Exercício)**.
 
-Currently, two official plugins are available:
+Este repositório contém o código-fonte do **Frontend**, construído em React com TypeScript para proporcionar uma experiência de usuário ágil, responsiva e integrada à API REST do backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📋 Sobre o Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O front-end foi arquitetado pensando em **componentização limpa**, **tipagem estática rigorosa** com TypeScript e **feedback visual amigável** para o usuário final.
 
-## Expanding the Oxlint configuration
+- **Arquitetura modular:** Separação clara entre páginas (`pages`), componentes reutilizáveis (`components`), serviços de comunicação com a API (`api`) e tipagens (`types`).
+- **Navegação fluida:** Rotas dinâmicas configuradas com React Router.
+- **Experiência refinada:** Alertas e confirmações customizadas utilizando SweetAlert2.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## ✨ Funcionalidades (Interface do Usuário)
+
+- **Gestão de Insumos:** Telas para cadastro, listagem, edição e exclusão de insumos, com seleção de unidades de medida (G, ML, UN).
+- **Gestão de Custos Fixos:** Interface para controle de custos operacionais (gás, energia e despesas fixas) com validações em tempo de execução.
+- **Navegação por Abas/Páginas:** Páginas dedicadas (Home, Insumos, Custos Fixos, Movimentação, Receitas, e Venda.) acessíveis via rotas estruturadas.
+- **Feedback Dinâmico:** Tratamento de erros de conexão/CORS e mensagens de sucesso integradas ao fluxo de cadastro e alteração de dados.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **React 19**
+- **TypeScript**
+- **Vite** (Build tool e ambiente de desenvolvimento)
+- **React Router DOM** (Gerenciamento de rotas)
+- **SweetAlert2** (Modais e alertas interativos)
+- **CSS / Estilização Modular**
+
+---
+
+## ⚙️ Confira o Backend em: 
+
+ - **https://github.com/AprendizR/precoCerto**
