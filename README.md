@@ -39,3 +39,6 @@ O front-end foi arquitetado pensando em **componentização limpa**, **tipagem e
 ## ⚙️ Confira o Backend em: 
 
  - **https://github.com/AprendizR/precoCerto**
+
+## 📜 Licença
+ - **Este projeto está licenciado sob a MIT License — veja o arquivo LICENSE para detalhes.**
